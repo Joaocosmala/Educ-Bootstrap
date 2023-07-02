@@ -185,7 +185,7 @@ Caso o /h1/ ainda não contente o tamanho preferivel de texto, temos em bootstra
 /class="/display5">/display-5, Bootstrap</
 /class="/display6">/display-6, Bootstrap</
 
-O / está sendo apenas acrescentado como forma de quebrar o código no readme para apresentação.
+*O / está sendo apenas acrescentado como forma de quebrar o código no readme para apresentação.
 Em seu projeto não coloque /
 
 -----------------------------------------------------------------------------------------------------
@@ -193,7 +193,7 @@ Em seu projeto não coloque /
 
 # Imagens
 
-img src="..........." class="img-fluid" alt="........"
+/img src="..........." class="img-fluid" alt="........"/
 Assim como com o HTML5 padrão usando uma tag de imagem para puxar uma imagem.
 A class img-fluid define a img como fluída para se adaptar de acordo com qual a responsividade se altere.
 
@@ -237,14 +237,14 @@ Cada uma das cores tem a intenção de passar uma emoção, com cada uma simboli
 
 
 # Botões
-class= btn btn-primary
-class= btn btn-secondary
-class= btn btn-success
-class= btn btn-danger
-class= btn btn-warning
-class= btn btn-info
-class= btn btn-light
-class= btn btn-dark
+/class= /btn btn-primary
+/class= /btn btn-secondary
+/class= /btn btn-success
+/class= /btn btn-danger
+/class= /btn btn-warning
+/class= /btn btn-info
+/class= /btn btn-light
+/class= /btn btn-dark
 
 Os botões seguem a mesma linha que o restante de todos os processos em bootstrap, sendo utilizados quando puxado uma class e citando o tipo, <btn> e logo em seguida a sua estilização com <btn-primary> trazendo assim uma cor e uma intenção.
 
@@ -284,39 +284,44 @@ Se passando assim exatamente como um "card" ou como podemos dizer em português 
 Em bootstrap as cores de fundo também podem ser definidas através das classes que vimos anteriormente com success, primary e etc........
 Assim, claro, podendo ser alteradas, porém, seguindo este como padrão.
 
-<bg.primary>
-<bg.secondary>
-<bg.success>
-<bg.danger>
-<bg.warning>
-<bg.info>
-<bg.light>
-<bg.dark>
+bg./primary
+bg./secondary
+bg./success
+bg./danger
+bg./warning
+bg./info
+bg./light
+bg./dark
 
 O .bg significa = Background e a frente utilizamos a cor da qual queremos que seja passada.
 
 
 # Opacidade
-.bg-opacity-75 -> setando o nível de opacidade do background em 75%
-.bg-opacity-60 -> setando o nível de opacidade do background em 60%
-.bg-opacity-50 -> setando o nível de opacidade do background em 50%
-.bg-opacity-44 -> setando o nível de opacidade do background em 44%
-.bg-opacity-40 -> setando o nível de opacidade do background em 40%
-.bg-opacity-10 -> setando o nível de opacidade do background em 10%
+/bg-opacity-75 -> setando o nível de opacidade do background em 75%
+
+/bg-opacity-60 -> setando o nível de opacidade do background em 60%
+
+/bg-opacity-50 -> setando o nível de opacidade do background em 50%
+
+/bg-opacity-44 -> setando o nível de opacidade do background em 44%
+
+/bg-opacity-40 -> setando o nível de opacidade do background em 40%
+
+/bg-opacity-10 -> setando o nível de opacidade do background em 10%
 
 
 # Cores em textos com .text
 Também podemos definir as cores das quais queremos utilizar somente em um texto específico, como por exemplo:
-.text-primary -> ficando assim somente a cor azul em um texto único
+text-primary -> ficando assim somente a cor azul em um texto único
 
-<primary>
-<secondary>
-<success>
-<danger>
-<warning>
-<info>
-<light>
-<dark>
+primary
+secondary
+success
+danger
+warning
+info
+light
+dark
 
 E isso, novamente, podendo se repetir em todos os padrões de cores já estipulados pelo Bootstrap.
 
@@ -326,8 +331,8 @@ E isso, novamente, podendo se repetir em todos os padrões de cores já estipula
 Margin sempre irá se distanciar de algum objeto que esteja próximo.
 Padding sempre irá fazer um preenchimento em seu corpo levando também em consideração o outro objeto.
 
-<m-2> -> Margem/Margin em relação à algum objeto. Se distância de algum objeto próximo.
-<p-5> -> Padding = Preenchimento interno/expansão do próprio objeto.
+/m-2 -> Margem/Margin em relação à algum objeto. Se distância de algum objeto próximo.
+/p-5 -> Padding = Preenchimento interno/expansão do próprio objeto.
 
 tanto o <m> quando o <p> sempre iram ir de <1> a <5>
 E este aumento é gradual levando em consideração o aumento anterior.
@@ -336,99 +341,99 @@ O bootstrap já deixa determinado um determinado espaçamento, ou seja, tanto m-
 Exemplo:
 
 Margin
-<m-1>
-<m-2>
-<m-3>
-<m-4>
-<m-5>
+m-1
+m-2
+m-3
+m-4
+m-5
 
 Padding
-<p-1>
-<p-2>
-<p-3>
-<p-4>
-<p-5>
+p-1
+p-2
+p-3
+p-4
+p-5
 
 Top
-<t-1>
-<t-2>
-<t-3>
-<t-4>
-<t-5>
+t-1
+t-2
+t-3
+t-4
+t-5
 
 Bottom
-<b-1>
-<b-2>
-<b-3>
-<b-4>
-<b-5>
+b-1
+b-2
+b-3
+b-4
+b-5
 
 Ínicio
-<s-1>
-<s-2>
-<s-3>
-<s-4>
-<s-5>
+s-1
+s-2
+s-3
+s-4
+s-5
 
 Fim
-<s-1>
-<s-2>
-<s-3>
-<s-4>
-<s-5>
+s-1
+s-2
+s-3
+s-4
+s-5
 
 Para classes que definem -left e -right
-<x-1>
-<x-2>
-<x-3>
-<x-4>
-<x-5>
+x-1
+x-2
+x-3
+x-4
+x-5
 
 
 Para classes que definem -top e -bottom
-<y-1>
-<y-2>
-<y-3>
-<y-4>
-<y-5>
+y-1
+y-2
+y-3
+y-4
+y-5
 
 
 Exemplos práticos:
 
 Em relação ao top
-<mt-1>
-<mt-2>
-<mt-3>
-<mt-4>
-<mt-5>
+mt-1
+mt-2
+mt-3
+mt-4
+mt-5
 
 Em relação ao bottom
-<mb-1>
-<mb-2>
-<mb-3>
-<mb-4>
-<mb-5>
+mb-1
+mb-2
+mb-3
+mb-4
+mb-5
 
 Em relação à left-right
-<mx-1>
-<mx-2>
-<mx-3>
-<mx-4>
-<mx-5>
+mx-1
+mx-2
+mx-3
+mx-4
+mx-5
 
 Em relação ao top e bottom
-<my-1>
-<my-2>
-<my-3>
-<my-4>
-<my-5>
+my-1
+my-2
+my-3
+my-4
+my-5
 
 E como podem ver, nós podemos utilizar dos espaçamentos para qualquer direção que quisermos arquitetar nosso front.
 
 # Text Positions 
-<p class="text-start"></p>
-<p class="text-center"></p>
-<p class="text-end"></p>
+/p class="text-start"></p
+/p class="text-center"></p
+/p class="text-end"></p
 
 Definindo as posições de um texto dentro de uma div/container
 
@@ -436,15 +441,15 @@ Definindo as posições de um texto dentro de uma div/container
 .fs para textos funciona de maneira semelhante, se não igual, à questão dos h1,h2,h3,h4,h5,h6 e também display1, display2, display3, display4, display5, display6
 
 Exemplo:
-< fs-1 > tamanhos alternados
-< fs-2 > tamanhos alternados
-< fs-3 > tamanhos alternados
-< fs-4 > tamanhos alternados
-< fs-5 > tamanhos alternados
-< fs-6 > tamanhos alternados
+/ fs-1  tamanhos alternados
+/ fs-2  tamanhos alternados
+/ fs-3  tamanhos alternados
+/ fs-4  tamanhos alternados
+/ fs-5  tamanhos alternados
+/ fs-6  tamanhos alternados
 
 # FW - BOLDER
-< fw-bolder > Deixa o texto em negrito (com peso e destaque)
+ fw-bolder  Deixa o texto em negrito (com peso e destaque)
 
 # Icones de Bootstrap
 
