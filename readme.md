@@ -149,12 +149,12 @@ Alinhando todos os items no final
 
 # TIPOGRAFIA (Tags para chamar texto em HTML)
 
-<h1>
-<h2>
-<h3>
-<h4>
-<h5>
-<h6>
+<h1
+<h2
+<h3
+<h4
+<h5
+<h6
 
 Bom, se você já está estudando Bootstrap, provavelmente você já sabe como que funciona a questão das tags de texto em HTML5, porém, sempre vale ressaltar por aqui um conteúdo a mais para dar uma recordada a quem ainda está iniciando.
 
@@ -163,24 +163,24 @@ Partindo do h1 sendo o maior tipo, até o h6 sendo o menor tipo.
 
 porém em Bootstrap você também pode chamar de maneira da qual preferir, e até mesmo de maneira separada.
 Veja um exemplo:
-<p class="h1">h1, Bootstrap</p>
-<p class="h2">h2, Bootstrap</p>
-<p class="h3">h3, Bootstrap</p>
-<p class="h4">h4, Bootstrap</p>
-<p class="h5">h5, Bootstrap</p>
-<p class="h6">h6, Bootstrap</p>
+p class="h1">h1, Bootstrap</p
+p class="h2">h2, Bootstrap</p
+p class="h3">h3, Bootstrap</p
+p class="h4">h4, Bootstrap</p
+p class="h5">h5, Bootstrap</p
+p class="h6">h6, Bootstrap</p
 
 
 Agora usando Display:
 
 Caso o <h1> ainda não contente o tamanho preferivel de texto, temos em bootstrap o <display>, que também se origina a partir do 1 e até o 6 com a mesma grade de tamanho vista no <h1>, ficando assim bem fácil a compreensão.
 
-<h1 class="display-1">display-1, Bootstrap</h1>
-<h1 class="display-2">display-2, Bootstrap</h1>
-<h1 class="display-3">display-3, Bootstrap</h1>
-<h1 class="display-4">display-4, Bootstrap</h1>
-<h1 class="display-5">display-5, Bootstrap</h1>
-<h1 class="display-6">display-6, Bootstrap</h1>
+h1 class="display-1">display-1, Bootstrap</h1
+h1 class="display-2">display-2, Bootstrap</h1
+h1 class="display-3">display-3, Bootstrap</h1
+h1 class="display-4">display-4, Bootstrap</h1
+h1 class="display-5">display-5, Bootstrap</h1
+h1 class="display-6">display-6, Bootstrap</h1
 
 
 -----------------------------------------------------------------------------------------------------
@@ -193,7 +193,6 @@ Assim como com o HTML5 padrão usando uma tag de imagem para puxar uma imagem.
 A class img-fluid define a img como fluída para se adaptar de acordo com qual a responsividade se altere.
 
 width e height podem ser usados em sequência para definir uma largura e altura específica para a imagem.
-
 
 -----------------------------------------------------------------------------------------------------
 
@@ -208,11 +207,11 @@ width e height podem ser usados em sequência para definir uma largura e altura 
     </form>        
 </div>
 
-<input> = setando botão
-<type="text"> = setando o tipo, que é texto
-<class="form-control"> = setando o tipo de aparência para formulário em HTML, aplicando ajustes e estilos para melhorar a experiência do usuário
-<placeholder="NomeCompleto"> = setando o conteúdo interno no holder do que é a atividade do botão
-<aria-label="Firstname> = setando o conteúdo interno no holder do que é a atividade do botão
+input = setando botão
+type="text" = setando o tipo, que é texto
+class="form-control" = setando o tipo de aparência para formulário em HTML, aplicando ajustes e estilos para melhorar a experiência do usuário
+placeholder="NomeCompleto" = setando o conteúdo interno no holder do que é a atividade do botão
+aria-label="Firstname = setando o conteúdo interno no holder do que é a atividade do botão
 
 
 -----------------------------------------------------------------------------------------------------
@@ -221,13 +220,13 @@ width e height podem ser usados em sequência para definir uma largura e altura 
 # Cores e Botões
 
 # Cores
-<primary> - Cor azul escuro
-<secundary> - Cor cinza
-<success> - Cor verde
-<danger> - Cor vermelha
-<warning> - Cor amarela
-<info> - Cor azul claro
-<dark> - Cor preto/cinza escuro
+primary - Cor azul escuro
+secundary - Cor cinza
+success - Cor verde
+danger - Cor vermelha
+warning - Cor amarela
+info - Cor azul claro
+dark - Cor preto/cinza escuro
 
 Cada uma das cores tem a intenção de passar uma emoção, com cada uma simbolizando algo, por isso os nomes.
 
@@ -236,7 +235,7 @@ Cada uma das cores tem a intenção de passar uma emoção, com cada uma simboli
 class= btn btn-primary
 class= btn btn-secondary
 class= btn btn-success
-lass= btn btn-danger
+class= btn btn-danger
 class= btn btn-warning
 class= btn btn-info
 class= btn btn-light
