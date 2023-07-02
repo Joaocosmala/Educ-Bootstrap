@@ -1,3 +1,16 @@
+![GIF Site EDUC Bootstrap](https://github.com/Joaocosmala/Educ-Bootstrap/assets/78692465/4977cf2a-56b6-4d8f-bfc3-51e39c69382c)
+
+![image](https://github.com/Joaocosmala/Educ-Bootstrap/assets/78692465/751b18f5-fb1a-49c0-a81d-dd9dcdd23e6a)
+![image](https://github.com/Joaocosmala/Educ-Bootstrap/assets/78692465/88c48d5b-2ae7-4b8e-9433-e386443cf5d6)
+![image](https://github.com/Joaocosmala/Educ-Bootstrap/assets/78692465/4ec7ce32-cc30-4dae-b695-818fef238a6a)
+![image](https://github.com/Joaocosmala/Educ-Bootstrap/assets/78692465/b7f8469c-a70f-4f3c-ad2f-ca4aa9c783a1)
+![image](https://github.com/Joaocosmala/Educ-Bootstrap/assets/78692465/611ddd13-4393-4480-a628-2ef39e4864c9)
+
+
+
+
+
+
 ## Site educacional desenvolvido com HTML e Bootstrap (Framework de CSS)
 ## Alguns ensinamentos básicos sobre Bootstrap para passar, assim ajudando a me conciliar da melhor forma na tecnologia, nos estudos, e com isso ajudando os demais. (Vale salientar que não sou nenhum profissional da tecnologia, muito pelo contrário, também sou estudante, e estou fazendo este README exatamente com o intuito de estudar, onde futuramente subirei o mesmo para o GITHUB, da onde você provavelmente está lendo este documento agora). Desde já agradeço chance e também a atenção!! Espero que aproveite e bons estudos!! #LetscodeDev
 
