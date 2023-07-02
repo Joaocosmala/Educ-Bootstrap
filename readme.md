@@ -149,12 +149,12 @@ Alinhando todos os items no final
 
 # TIPOGRAFIA (Tags para chamar texto em HTML)
 
-<h1
-<h2
-<h3
-<h4
-<h5
-<h6
+h1
+h2
+h3
+h4
+h5
+h6
 
 Bom, se você já está estudando Bootstrap, provavelmente você já sabe como que funciona a questão das tags de texto em HTML5, porém, sempre vale ressaltar por aqui um conteúdo a mais para dar uma recordada a quem ainda está iniciando.
 
