@@ -163,25 +163,26 @@ Partindo do h1 sendo o maior tipo, até o h6 sendo o menor tipo.
 
 porém em Bootstrap você também pode chamar de maneira da qual preferir, e até mesmo de maneira separada.
 Veja um exemplo:
-p class="h1">h1, Bootstrap</p
-p class="h2">h2, Bootstrap</p
-p class="h3">h3, Bootstrap</p
-p class="h4">h4, Bootstrap</p
-p class="h5">h5, Bootstrap</p
-p class="h6">h6, Bootstrap</p
-
+p class="h1/"> Bootstrap</p
+p class="h2/"> Bootstrap</p
+p class="h3/"> Bootstrap</p
+p class="h4/"> Bootstrap</p
+p class="h5/"> Bootstrap</p
+p class="h6/"> Bootstrap</p
 
 Agora usando Display:
 
 Caso o <h1> ainda não contente o tamanho preferivel de texto, temos em bootstrap o <display>, que também se origina a partir do 1 e até o 6 com a mesma grade de tamanho vista no <h1>, ficando assim bem fácil a compreensão.
 
-h1 class="display-1">display-1, Bootstrap</h1
-h1 class="display-2">display-2, Bootstrap</h1
-h1 class="display-3">display-3, Bootstrap</h1
-h1 class="display-4">display-4, Bootstrap</h1
-h1 class="display-5">display-5, Bootstrap</h1
-h1 class="display-6">display-6, Bootstrap</h1
+h1 class="/display-1">display-1, Bootstrap</h1
+h1 class="/display-2">display-2, Bootstrap</h1
+h1 class="/display-3">display-3, Bootstrap</h1
+h1 class="/display-4">display-4, Bootstrap</h1
+h1 class="/display-5">display-5, Bootstrap</h1
+h1 class="/display-6">display-6, Bootstrap</h1
 
+O / está sendo apenas acrescentado como forma de quebrar o código no readme para apresentação.
+Em seu projeto não coloque /
 
 -----------------------------------------------------------------------------------------------------
 
