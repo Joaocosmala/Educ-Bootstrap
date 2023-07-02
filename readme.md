@@ -34,19 +34,16 @@ Item 1: Item 2: Item 3: Item 4:
 (1,2,3) (4,5,6) (7,8,9) (10,11,12)
 
 
-
 - Se você tiver 3 elementos que vão ser colocados na tela de maneira alinhada, então terá que dividir estes GRIDs em:
 
 Item 1:    Item 2:   Item 3:
 (1,2,3,4) (5,6,7,8) (9,10,11,12,) 
 
 
-
 - Se você tiver 2 elementos que vão ser colocados na tela de maneira alinhada, então terá que dividir estes GRIDs em:
 
 Item 1:       Item 2:
 (1,2,3,4,5,6) (6,7,8,9,10,11,12)
-
 
 
 E por ai vai... Entendendo isso então você já vai ter pego a base de onde o Bootstrap se implementa.
@@ -64,12 +61,12 @@ Grande - (lg) - 992px, 960px
 Extra grande - (xl) - 1200px, 1140px
 Extra extra grande - (xxl) 1400px, 1320px
 
-# Extra pequeno - xs: Refere-se a dispositivos com uma largura de tela muito pequena, como smartphones em modo retrato. É o menor tamanho de tela considerado.
-# Pequeno - sm: Refere-se a dispositivos com uma largura de tela um pouco maior do que o xs, como smartphones em modo paisagem ou tablets em modo retrato.
-# Médio - md: Refere-se a dispositivos com uma largura de tela média, como tablets em modo paisagem ou monitores de tamanho moderado.
-# Grande - lg: Refere-se a dispositivos com uma largura de tela grande, como laptops e monitores de tamanho padrão.
-# Extra grande - xl: Refere-se a dispositivos com uma largura de tela extra grande, como monitores de alta resolução ou televisores.
-# Extra extra grande - xxl: Refere-se a dispositivos com uma largura de tela extremamente grande, como monitores de tela ampla.
+Extra pequeno - xs: Refere-se a dispositivos com uma largura de tela muito pequena, como smartphones em modo retrato. É o menor tamanho de tela considerado.
+Pequeno - sm: Refere-se a dispositivos com uma largura de tela um pouco maior do que o xs, como smartphones em modo paisagem ou tablets em modo retrato.
+Médio - md: Refere-se a dispositivos com uma largura de tela média, como tablets em modo paisagem ou monitores de tamanho moderado.
+Grande - lg: Refere-se a dispositivos com uma largura de tela grande, como laptops e monitores de tamanho padrão.
+Extra grande - xl: Refere-se a dispositivos com uma largura de tela extra grande, como monitores de alta resolução ou televisores.
+Extra extra grande - xxl: Refere-se a dispositivos com uma largura de tela extremamente grande, como monitores de tela ampla.
 
 O Bootstrap oferece classes CSS específicas para cada ponto de grade, assim permitindo que você defina o comportamento dos elementos
 em diferentes tamanhos de tela. Por exemplo, você pode usar a classe col-xs-6 para definir uma coluna com metade da largura disponível
@@ -99,9 +96,8 @@ define uma coluna que ocupa dois terços do espaço disponível em dispositivos 
 
 
 # MD e MD-2
-
-# Exemplo: class"col-md-2" -> Estou dizendo que esta minha classe será "quebrada" ou seja, redimensionada quando minha tela chegar em 768px, para uma adaptação a outros dispositivos
-# Então, logo o 2 será a quantidade de grids que vão ser divididos para o meu conteúdo na tela, ou seja, 1,2,3,4,5,6 para o primeiro conteúdo e 7,8,9,10.11.12 para o segundo conteúdo, deixando a tela sendo ocupada na metade com um conteúdo de cada lado, como mostra o exemplo acima, em GRIDs.
+Exemplo: class"col-md-2" -> Estou dizendo que esta minha classe será "quebrada" ou seja, redimensionada quando minha tela chegar em 768px, para uma adaptação a outros dispositivos
+Então, logo o 2 será a quantidade de grids que vão ser divididos para o meu conteúdo na tela, ou seja, 1,2,3,4,5,6 para o primeiro conteúdo e 7,8,9,10.11.12 para o segundo conteúdo, deixando a tela sendo ocupada na metade com um conteúdo de cada lado, como mostra o exemplo acima, em GRIDs.
 Item 1:       Item 2:
 (1,2,3,4,5,6) (6,7,8,9,10,11,12)
 
@@ -225,7 +221,6 @@ A class img-fluid define a img como fluída para se adaptar de acordo com qual a
 # Cores e Botões
 
 # Cores
-
 <primary> - #Cor azul escuro
 <secundary> - #Cor cinza
 <success> - #Cor verde
@@ -238,7 +233,6 @@ Cada uma das cores tem a intenção de passar uma emoção, com cada uma simboli
 
 
 # Botões
-
 <class= btn btn-primary>
 <class= btn btn-secondary>
 <class= btn btn-success>
@@ -447,18 +441,17 @@ Definindo as posições de um texto dentro de uma div/container
 .fs para textos funciona de maneira semelhante, se não igual, à questão dos h1,h2,h3,h4,h5,h6 e também display1, display2, display3, display4, display5, display6
 
 Exemplo:
-<fs-1> tamanhos alternados
-<fs-2> tamanhos alternados
-<fs-3> tamanhos alternados
-<fs-4> tamanhos alternados
-<fs-5> tamanhos alternados
-<fs-6> tamanhos alternados
+< fs-1 > tamanhos alternados
+< fs-2 > tamanhos alternados
+< fs-3 > tamanhos alternados
+< fs-4 > tamanhos alternados
+< fs-5 > tamanhos alternados
+< fs-6 > tamanhos alternados
 
 # FW - BOLDER
-<fw-bolder> Deixa o texto em negrito (com peso e destaque)
+< fw-bolder > Deixa o texto em negrito (com peso e destaque)
 
-
-Icones de Bootstrap
+# Icones de Bootstrap
 
 O próprio site do bootstrap disponibiliza de maneira gratuíta acesso a uma galeria de ícones para uso em suas aplicações e estudos. Sejam elas acadêmicas ou profissionais.
 Site abaixo linkado:
