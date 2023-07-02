@@ -127,22 +127,22 @@ No exemplo acima vemos nitidamente a estrutura de GRID na prática do que seria 
 
 Resumindo:
 
-# ROW - Criar uma linha para o conteúdo em um sistema de grade responsivo
-# COL - Criar colunas em um sistema de grade responsivo
-# MD - Médio |.........
-# MD-2 - Divisão de GRIDS em 2 com uma quebra em 768px
+ROW - Criar uma linha para o conteúdo em um sistema de grade responsivo
+COL - Criar colunas em um sistema de grade responsivo
+MD - Médio |.........
+MD-2 - Divisão de GRIDS em 2 com uma quebra em 768px
 
 -----------------------------------------------------------------------------------------------------
 
 # COLUNAS
 
-<div class="row-align-items-start">
+class="row-align-items-start"
 Alinhando todos os items no começo
 
-<div class="row-align-items-center">
+class="row-align-items-center"
 Alinhando todos os items no centro/meio
 
-<div class="row-align-items-end">
+class="row-align-items-end"
 Alinhando todos os items no final
 
 -----------------------------------------------------------------------------------------------------
@@ -188,11 +188,11 @@ Caso o <h1> ainda não contente o tamanho preferivel de texto, temos em bootstra
 
 # Imagens
 
-<img src="..........." class="img-fluid" alt="........">
+img src="..........." class="img-fluid" alt="........"
 Assim como com o HTML5 padrão usando uma tag de imagem para puxar uma imagem.
 A class img-fluid define a img como fluída para se adaptar de acordo com qual a responsividade se altere.
 
-<width> e <height> podem ser usados em sequência para definir uma largura e altura específica para a imagem.
+width e height podem ser usados em sequência para definir uma largura e altura específica para a imagem.
 
 
 -----------------------------------------------------------------------------------------------------
@@ -221,26 +221,26 @@ A class img-fluid define a img como fluída para se adaptar de acordo com qual a
 # Cores e Botões
 
 # Cores
-<primary> - #Cor azul escuro
-<secundary> - #Cor cinza
-<success> - #Cor verde
-<danger> - #Cor vermelha
-<warning> - #Cor amarela
-<info> - #Cor azul claro
-<dark> - #Cor preto/cinza escuro
+<primary> - Cor azul escuro
+<secundary> - Cor cinza
+<success> - Cor verde
+<danger> - Cor vermelha
+<warning> - Cor amarela
+<info> - Cor azul claro
+<dark> - Cor preto/cinza escuro
 
 Cada uma das cores tem a intenção de passar uma emoção, com cada uma simbolizando algo, por isso os nomes.
 
 
 # Botões
-<class= btn btn-primary>
-<class= btn btn-secondary>
-<class= btn btn-success>
-<class= btn btn-danger>
-<class= btn btn-warning>
-<class= btn btn-info>
-<class= btn btn-light>
-<class= btn btn-dark>
+class= btn btn-primary
+class= btn btn-secondary
+class= btn btn-success
+lass= btn btn-danger
+class= btn btn-warning
+class= btn btn-info
+class= btn btn-light
+class= btn btn-dark
 
 Os botões seguem a mesma linha que o restante de todos os processos em bootstrap, sendo utilizados quando puxado uma class e citando o tipo, <btn> e logo em seguida a sua estilização com <btn-primary> trazendo assim uma cor e uma intenção.
 
@@ -277,7 +277,6 @@ Se passando assim exatamente como um "card" ou como podemos dizer em português 
 
 
 # Cores de FUNDO (BACKGROUND-COLOR)
-
 Em bootstrap as cores de fundo também podem ser definidas através das classes que vimos anteriormente com success, primary e etc........
 Assim, claro, podendo ser alteradas, porém, seguindo este como padrão.
 
@@ -294,7 +293,6 @@ O .bg significa = Background e a frente utilizamos a cor da qual queremos que se
 
 
 # Opacidade
-
 .bg-opacity-75 -> setando o nível de opacidade do background em 75%
 .bg-opacity-60 -> setando o nível de opacidade do background em 60%
 .bg-opacity-50 -> setando o nível de opacidade do background em 50%
@@ -304,7 +302,6 @@ O .bg significa = Background e a frente utilizamos a cor da qual queremos que se
 
 
 # Cores em textos com .text
-
 Também podemos definir as cores das quais queremos utilizar somente em um texto específico, como por exemplo:
 .text-primary -> ficando assim somente a cor azul em um texto único
 
@@ -322,13 +319,11 @@ E isso, novamente, podendo se repetir em todos os padrões de cores já estipula
 -----------------------------------------------------------------------------------------------------
 
 # ESPAÇAMENTOS (MARGIN E PADDING EM BOOTSTRAP)
-
 Margin sempre irá se distanciar de algum objeto que esteja próximo.
 Padding sempre irá fazer um preenchimento em seu corpo levando também em consideração o outro objeto.
 
 <m-2> -> Margem/Margin em relação à algum objeto. Se distância de algum objeto próximo.
 <p-5> -> Padding = Preenchimento interno/expansão do próprio objeto.
-
 
 tanto o <m> quando o <p> sempre iram ir de <1> a <5>
 E este aumento é gradual levando em consideração o aumento anterior.
@@ -425,10 +420,6 @@ Em relação ao top e bottom
 <my-5>
 
 E como podem ver, nós podemos utilizar dos espaçamentos para qualquer direção que quisermos arquitetar nosso front.
-
-
-
-
 
 # Text Positions 
 <p class="text-start"></p>
